@@ -53,3 +53,12 @@
 .navbar-btn:hover {
   background-color: #2563eb;
 }
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none; /* later replaced by hamburger */
+  }
+
+  .navbar {
+    padding: 14px 20px;
+  }
+}

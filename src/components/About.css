@@ -59,3 +59,33 @@
   transform: translateY(-6px);
   box-shadow: 0 10px 30px rgba(59, 130, 246, 0.15);
 }
+/* Tablet */
+@media (max-width: 768px) {
+  .about-header h1 {
+    font-size: 2.2rem;
+  }
+
+  .about-header p {
+    font-size: 1rem;
+  }
+
+  .about {
+    padding: 40px 20px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .about-header {
+    padding: 40px 10px;
+  }
+
+  .about-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .about-content {
+    margin-top: 50px;
+    gap: 20px;
+  }
+}
